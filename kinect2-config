@@ -6,8 +6,8 @@ if [ -d "/etc/ros/hydro" ];
 then
     echo "groovy exists..."
     sudo sed -i 's:</launch>:\
-    <machine name="pr2head" address="pr2head" user="pr2-head" password="clearpath" env-loader="/home/pr2-head/kinect_ws/devel/env.sh"/>\
-    <node machine="pr2head" pkg="kinect2_bridge" type="kinect2_bridge" name="kinect2_bridge">\
+    <machine name="pr2-head" address="pr2-head" user="pr2-head" password="clearpath" env-loader="/home/pr2-head/kinect_ws/devel/env.sh"/>\
+    <node machine="pr2-head" pkg="kinect2_bridge" type="kinect2_bridge" name="kinect2_bridge">\
     <param name="publish_tf" value="true"/>\
     </node>\
     \
@@ -18,8 +18,8 @@ if [ -d "/etc/ros/hydro" ];
 then
     echo "hydro exists..."
     sudo sed -i 's:</launch>:\
-    <machine name="pr2head" address="pr2head" user="pr2-head" password="clearpath" env-loader="/home/pr2-head/kinect_ws/devel/env.sh"/>\
-    <node machine="pr2head" pkg="kinect2_bridge" type="kinect2_bridge" name="kinect2_bridge">\
+    <machine name="pr2-head" address="pr2-head" user="pr2-head" password="clearpath" env-loader="/home/pr2-head/kinect_ws/devel/env.sh"/>\
+    <node machine="pr2-head" pkg="kinect2_bridge" type="kinect2_bridge" name="kinect2_bridge">\
     <param name="publish_tf" value="true"/>\
     </node>\
     \
@@ -30,8 +30,8 @@ if [ -d "/etc/ros/indigo" ];
 then
     echo "indigo exists..."
     sudo sed -i 's:</launch>:\
-    <machine name="pr2head" address="pr2head" user="pr2-head" password="clearpath" env-loader="/home/pr2-head/kinect_ws/devel/env.sh"/>\
-    <node machine="pr2head" pkg="kinect2_bridge" type="kinect2_bridge" name="kinect2_bridge">\
+    <machine name="pr2-head" address="pr2-head" user="pr2-head" password="clearpath" env-loader="/home/pr2-head/kinect_ws/devel/env.sh"/>\
+    <node machine="pr2-head" pkg="kinect2_bridge" type="kinect2_bridge" name="kinect2_bridge">\
     <param name="publish_tf" value="true"/>\
     </node>\
     \
@@ -39,8 +39,8 @@ then
 fi
 
 sudo sed -i 's:</launch>:\
-    <machine name="pr2head" address="pr2head" user="pr2-head" password="clearpath" env-loader="/home/pr2-head/kinect_ws/devel/env.sh"/>\
-    <node machine="pr2head" pkg="kinect2_bridge" type="kinect2_bridge" name="kinect2_bridge">\
+    <machine name="pr2-head" address="pr2-head" user="pr2-head" password="clearpath" env-loader="/home/pr2-head/kinect_ws/devel/env.sh"/>\
+    <node machine="pr2-head" pkg="kinect2_bridge" type="kinect2_bridge" name="kinect2_bridge">\
     <param name="publish_tf" value="true"/>\
     </node>\
     \
